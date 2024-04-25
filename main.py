@@ -24,6 +24,8 @@ while True:
             balance += deposit_value
             extract += f"Deposito realizado: +R$ {deposit_value:.2f}\n"
             print(f"R$ {deposit_value:.2f} Depositados")
+        else:
+            print("Valor menor ou igual 0 são invalidos")
 
     elif option == "2":
         print("Saque")
